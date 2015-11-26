@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "Mithril Chrome Extension",
+  "description": "A great example of using Mithril and ES6 for a Chrome extension.",
+  "version": "0.1",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "tabs",
+    "storage",
+    "cookies",
+    "webRequest",
+    "webRequestBlocking",
+    "*://*.google.com/*"
+  ],
+  "background": {
+    "scripts": ["assets/js/background.js"]
+  },
+  "web_accessible_resources": [
+    "app/index.html*"
+  ],
+  "icons": {
+    "128": "icon.png"
+  }
+}

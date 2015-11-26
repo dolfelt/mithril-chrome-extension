@@ -1,0 +1,13 @@
+{
+  "globals": {
+    "document": true,
+    "window": true,
+    "console": false,
+    "chrome": false,
+    "m": false,
+    "module": true,
+    "process": false
+  },
+  "undef": true,
+  "esnext": true
+}

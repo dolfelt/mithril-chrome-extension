@@ -1,0 +1,51 @@
+.form--button, form button {
+    background: white;
+    border: 2px solid $divider-color;
+    border-radius: 4px;
+    color: $secondary-text;
+    padding: 0 10px;
+    line-height: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.form--item {
+    > label {
+        text-transform: uppercase;
+        margin: 10px 0 4px;
+        font-size: 11px;
+        font-weight: 500;
+        display: block;
+    }
+
+    input {
+        font-size: 13px;
+        font-weight: 300;
+        padding: 0 5px;
+        line-height: 32px;
+        border: 1px solid $divider-color;
+        border-radius: 2px;
+        box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+
+        &.input-error {
+            border-color: #CC0000;
+            background-color: #FFEEEE;
+        }
+    }
+}
+
+hr {
+    height: 2px;
+    border: none;
+    background: $divider-color;
+    margin: 10px 0;
+    border-radius: 1px;
+}
+
+.form--horizontal {
+    display: flex;
+
+    > .checkbox {
+        flex-grow: 1;
+    }
+}

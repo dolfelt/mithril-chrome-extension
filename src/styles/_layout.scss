@@ -1,0 +1,45 @@
+.the-app {
+    overflow: hidden;
+}
+.menu-tabs {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    background: $primary-color;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.4);
+
+    li {
+        flex-grow: 1;
+
+        a {
+            display: inline-block;
+            line-height: 40px;
+            height: 40px;
+            text-align: center;
+            width: 100%;
+            color: white;
+            font-size: 14px;
+            font-weight: 400;
+            text-transform: uppercase;
+            text-decoration: none;
+            border-bottom: 4px solid transparent;
+
+            &:hover {
+                border-bottom-color: $primary-color-dark;
+            }
+        }
+
+        &.selected a {
+            border-bottom-color: $primary-color-dark;
+        }
+    }
+}
+
+.content {
+    margin-top: 40px;
+
+    .body {
+        padding: 20px;
+    }
+}

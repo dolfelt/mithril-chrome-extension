@@ -1,0 +1,29 @@
+{
+  "name": "mithril-chrome-extension",
+  "version": "0.1.0",
+  "description": "Example building an ES6, Mithril Chrome extension.",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Olfelt <dolfelt@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babelify": "^6.2.0",
+    "bootstrap": "git+https://github.com/twbs/bootstrap.git#v4-dev",
+    "browserify": "^11.0.1",
+    "event-stream": "^3.3.2",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^2.3.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-sass": "^2.0.4",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-util": "^3.0.6",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.3.1"
+  },
+  "dependencies": {
+    "mithril": "^0.2.0"
+  }
+}

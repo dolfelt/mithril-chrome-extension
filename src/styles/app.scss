@@ -1,0 +1,44 @@
+
+$primary-color-dark: #689F38;
+$primary-color: #8BC34A;
+$primary-color-light: #DCEDC8;
+$divider-color: #B6B6B6;
+
+$accent-color: #03A9F4;
+
+$primary-text: #212121;
+$secondary-text: #727272;
+
+
+@import "../../node_modules/bootstrap/scss/normalize";
+
+body {
+    min-width: 420px;
+    min-height: 500px;
+    overflow-x: hidden;
+    font-family: Roboto, sans-serif;
+    color: $primary-text;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    outline: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@import "layout";
+@import "forms";
